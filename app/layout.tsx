@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import PrelineScript from "../lib/PrelineScript";
+import type { Metadata } from 'next';
+import './globals.css';
+import PrelineScript from '../lib/PrelineScript';
 
-import Header from "../ui/Header";
-import Footer from "../ui/Footer";
+import Header from '../ui/Header';
+import Footer from '../ui/Footer';
 
 const baseURL = 'https://chrisdevcode.co.ke';
 const defaultTitle = 'ChrisDevCode';
@@ -129,9 +129,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        <main>
-        {children}
-        </main>
+        <main>{children}</main>
         <Footer />
       </body>
       <PrelineScript />
