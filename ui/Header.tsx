@@ -84,10 +84,10 @@ const Header = () => {
           </Link> */}
           <a
             className="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-200"
-            href="https://medium.com/@chrisdevcode"
+            href="https://github.com/achingachris/nextjs-tailwind-starter"
             target='_blank'
           >
-            Articles
+            Repo
           </a>
         </div>
       </div>

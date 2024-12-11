@@ -1,2 +1,2 @@
-# ChrisDevCode - Web
+# NextJs + Tailwind(Preline) Starter Template
 
